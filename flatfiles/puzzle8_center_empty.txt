@@ -17,6 +17,16 @@ fact: (pred obj1 obj2)
 rule: ((pred obj1 obj2) (pred obj2 obj3)) -> (pred obj1 obj3)
 
 """
+fact: (inst tile1 Tile)
+fact: (inst tile2 Tile)
+fact: (inst tile3 Tile)
+fact: (inst tile4 Tile)
+fact: (inst tile5 Tile)
+fact: (inst tile6 Tile)
+fact: (inst tile7 Tile)
+fact: (inst tile8 Tile)
+
+
 
 fact: (movable tile2 pos2 pos1 pos2 pos2)
 fact: (movable tile4 pos3 pos2 pos2 pos2)
